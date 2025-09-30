@@ -1,5 +1,5 @@
 import random
-from .environment import Environment, Room
+from environment import Environment, Room
 
 class Agent:
     def __init__(self, env: Environment, position: int = 0):

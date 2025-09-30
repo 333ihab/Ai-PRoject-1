@@ -1,6 +1,6 @@
 import random
-from .agent import BaselineAgent, HeuristicAgent
-from .environment import Environment
+from agent import BaselineAgent, HeuristicAgent
+from environment import Environment
 
 def simulate(agent_class, n_rooms=5, max_steps=100):
     """
